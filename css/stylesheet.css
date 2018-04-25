@@ -1,0 +1,68 @@
+		#wrapper { margin: 65px 85px; }
+
+		.column *{ padding: 5px; }
+		.column div { padding-right: 20px; }
+		.vert-align { font-size: 10px; }
+		.wide, .thin { clear:both; }
+		.table tbody>tr>td.vert-align{
+           vertical-align: middle;
+         }
+		.title {
+			font-size: 14pt;
+			font-family: Futura, Helvetica, Arial, sans-serif;
+			font-weight:bold;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		body { font-size: 9pt; background-image:url("../graphics/bgblau.gif"); color:blue;}
+		/*div {background:red} */
+		/* unvisited link */
+		a:link {
+    		color: grey;
+		}
+		/* visited link */
+		a:visited {
+    		color: #CCCCCC;
+		}
+		a:link {
+    		color: grey;
+    			-webkit-transition-property: color;
+     			  -moz-transition-property: color;
+        			 -o-transition-property: color;
+        			    transition-property: color;
+			    -webkit-transition-duration: 0.3s;
+			       -moz-transition-duration: 0.3s;
+			         -o-transition-duration: 0.3s;
+			            transition-duration: 0.3s;
+			    -webkit-transition-timing-function: linear;
+			       -moz-transition-timing-function: linear;
+			         -o-transition-timing-function: linear;
+			            transition-timing-function: linear;
+				}
+		a:hover {
+			 color: #FF4900;
+			 text-decoration: none
+		}
+		h1 {
+			font-size: 26pt;
+			text-align:center;
+			border: 5pt solid blue;
+			font-family: 'Roboto', sans-serif;
+			margin-top:0px;
+			padding:20px;
+			line-height:60px;
+			font-weight:900;
+			display:inline-block;
+		}
+		h2 {
+			font-size: 16pt;
+			font-family: 'Roboto', sans-serif;
+			font-weight:700;
+			text-transform:uppercase;
+			margin:0 0 7px 0;
+		}
+		table {  
+				background:#fff;
+			}
